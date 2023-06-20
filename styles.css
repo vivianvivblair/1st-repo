@@ -1,0 +1,30 @@
+#icon {
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    background: red;
+}
+
+svg {
+    fill: black;
+
+
+}
+
+path {
+    fill: white;
+
+}
+
+@media screen (max-width:768px) {
+    body {
+        max-width: 768px;
+    }
+
+    photo {
+        width: 43.75em;
+        height: 23.75em;
+    }
+
+}
